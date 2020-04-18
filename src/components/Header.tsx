@@ -107,7 +107,7 @@ function SkillsHeaderComponent() {
               component="p"
               className={classes.subtitle}
             >
-              And overview of technologies used.
+              And technologies used.
             </Typography>
           </Grid>
         </Grid>
