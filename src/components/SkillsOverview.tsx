@@ -9,7 +9,7 @@ import { SkillWithDescriptionCard, LabelledSkill } from "./SkillCard";
 import { SkillWithDescription, SkillPercent } from "./skills.types";
 import { DjangoIcon } from "./icons/django";
 import { PostgresIcon } from "./icons/postgres";
-import { RedisIcon } from "./icons/redis";
+import { RustIcon } from "./icons/rust";
 import { GraphqlIcon } from "./icons/graphql";
 import { GolangIcon } from "./icons/golang";
 import { AwsIcon } from "./icons/aws";
@@ -55,9 +55,9 @@ export const SkillsOverview: React.FC = () => {
 
   const languages: SkillPercent[] = [
     { name: "Python 3", score: 4 },
-    { name: "Javascript (ES6)", score: 4 },
     { name: "TypeScript", score: 4 },
-    { name: "Golang", score: 3.5 }
+    { name: "Rust", score: 3 },
+    { name: "Golang", score: 3 }
   ];
 
   const frontend = [{ name: "React", icon: ReactIcon }];
@@ -75,8 +75,8 @@ export const SkillsOverview: React.FC = () => {
       icon: PostgresIcon
     },
     {
-      name: "Redis",
-      icon: RedisIcon
+      name: "Rust",
+      icon: RustIcon
     },
     {
       name: "GraphQL",

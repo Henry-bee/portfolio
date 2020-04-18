@@ -73,14 +73,11 @@ export const LandingPage: React.FC = () => {
                 <br />
                 <br />
                 My expertise mainly lies in backend development and cloud
-                infrastructure design. However, I do have experience using
-                front-end framework such as <b>React</b> (this website) and I'm
-                definitely keen to do more. I'm comfortable using{" "}
-                <b>Javascript/Typescript</b> and <b>Python </b>, used{" "}
-                <b>Golang</b>. for some projects and very keen to pick up Rust.
-                I have obtained{" "}
-                <b>AWS Certified Solutions Architect - Associate</b>{" "}
-                certification in Jan 2020.
+                infrastructure design. However, I do enjoy hacking away with JS
+                framework (React for this site) to bring modern UI to life. I'm keen to
+                do more! Language-wise, I'm comfortable using{" "}
+                <b>Javascript/Typescript</b>, <b>Python</b> and <b>Rust</b>{" "}
+                (fast becoming my favourite).
                 <br />
                 <br />
                 To me, nothing is more satisfying than coming up with simple,
@@ -90,12 +87,12 @@ export const LandingPage: React.FC = () => {
           </Grid>
           <Grid container item direction="row">
             <Grid item xs={3} md={1}>
-              <Link href="#">
+              <Link href={process.env.REACT_APP_LINKEDIN_URL || "#"}>
                 <LinkedInIcon className={classes.contactIcon} />
               </Link>
             </Grid>
             <Grid item xs={3} md={1}>
-              <Link href="#">
+              <Link href={process.env.REACT_APP_GITHUB_URL || ""}>
                 <GithubIcon className={classes.contactIcon} />
               </Link>
             </Grid>

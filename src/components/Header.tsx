@@ -107,9 +107,7 @@ function SkillsHeaderComponent() {
               component="p"
               className={classes.subtitle}
             >
-              Quick overview of my main technical skills
-              <br />
-              and technologies I've used.
+              And overview of technologies used.
             </Typography>
           </Grid>
         </Grid>
